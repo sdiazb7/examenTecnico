@@ -1,3 +1,4 @@
+@media all and (max-width: 400px) {
 *{
   margin:0;
   padding:0em;
@@ -12,7 +13,6 @@ body{
 
 }
  
-  
  
    header {
      display: block; 
@@ -482,7 +482,7 @@ margin:0px auto;
   
   
   .container_saving_view{
-	  
+	margin:0px auto;  
    display:block;	  
    height: auto;
    width: 330px;
@@ -505,7 +505,7 @@ margin:0px auto;
 	top:170px;
 	height: 121px;
     width: 100%;
-	background: url(../img/vector.png) no-repeat;
+	background: url(../img/Vector.png) no-repeat;
 	padding-top:2em;
 	padding-left:1.5em;
     border-radius: 20px;
@@ -726,4 +726,5 @@ font-size:1.5em;
    background-image:url("../img/more.png");
    background-repeat: no-repeat;
 
+}
 }
